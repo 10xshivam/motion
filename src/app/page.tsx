@@ -1,5 +1,5 @@
 // For Client
-// import { motion } from "framer-motion"
+// import { motion } from "motion/react"
 
 // For Server
 import * as motion from "motion/react-client";
@@ -7,7 +7,8 @@ import * as motion from "motion/react-client";
 export default function Home() {
   return (
     <div className="h-screen w-full pt-12">
-      <h1 className="text-2xl text-center mb-20">Motion</h1>
+      <h1 className="text-2xl text-center mb-20">Learning Motion</h1>
+      {/* Intro */}
       {/* <motion.div
         initial={{
           x: 500,

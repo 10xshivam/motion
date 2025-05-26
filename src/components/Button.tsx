@@ -1,16 +1,9 @@
 import React from "react";
 import * as motion from "motion/react-client";
 
-export default function Basics() {
+export default function Button() {
   return (
-    <div
-      style={{
-        backgroundImage: `radial-gradient(circle at 0.5px 0.5px,rgba(6,182,212,0.2) 0.5px,transparent 1px)`,
-        backgroundSize: "8px 8px",
-        backgroundRepeat: "repeat",
-      }}
-      className="[perspective::1000px] h-screen w-full bg-neutral-950 flex items-center justify-center"
-    >
+    <>
       <motion.button
         initial={{
           opacity: 0,
@@ -43,6 +36,6 @@ export default function Basics() {
         <span className="absolute inset-x-0 bottom-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent h-px w-3/4 m-auto" />
         <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 inset-x-0 bottom-0 bg-gradient-to-r from-transparent via-cyan-500 to-transparent h-[4px] w-full m-auto blur-md" />
       </motion.button>
-    </div>
+    </>
   );
 }
