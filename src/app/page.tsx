@@ -37,6 +37,10 @@ export default function Home() {
       title: "Scroll-effect",
       href: "/scrollable",
     },
+    {
+      title: "Get Code",
+      href: "https://github.com/10xshivam/motion",
+    },
 
   ];
   return (
